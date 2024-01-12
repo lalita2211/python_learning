@@ -17,3 +17,5 @@ b = str1[17:].upper() #make captial to developer
 print("a=",a)
 print("b=",b)
 print(a + b)
+
+
