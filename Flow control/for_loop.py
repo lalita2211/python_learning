@@ -50,3 +50,8 @@ for x in l:
 print(sum)
 
 # we can use sum function also:  print("sum=", sum(l))
+
+#nested loop
+for i in range(3):
+    for j in range(2):
+        print("i={} and j={}".format(i,j))

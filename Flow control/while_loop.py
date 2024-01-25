@@ -42,10 +42,10 @@
 #     n = input("enter name of your fav")
 # print("thanks for your confirmation")
 
-# l = [0,1,2,4]
-# for i in l:
-#     m = i(i+1)/2
-#     print(m)
+l = [0,1,2,4]
+for i in l:
+    m = i(i+1)/2
+    print(m)
 
 
 l = [0,1,2,3,4,6]
@@ -60,8 +60,3 @@ for num in l:
 print(xor_all ^  xor_arr)
 
 
-#nested loop
-
-for i in range(3):
-    for j in range(2):
-        print("i={} and j={}".format(i,j))
